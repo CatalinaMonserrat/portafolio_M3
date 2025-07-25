@@ -8,6 +8,7 @@ valor_EUR= 1110.81
 valor_Yuan=  132.49
 
 def menu():
+    """Menu de opciones"""
     print("1. CLP a Dolares")
     print("2. CLP a Euros")
     print("3. CLP a Yuanes")
@@ -16,9 +17,11 @@ def menu():
     print("6. Yuanes a pesos")
     print("7. Salir")
 def convertir(pesos, valor):
+    """Convierte pesos a dolares"""
     return pesos / valor
 
 def convertir2(moneda, valor):
+    """Convierte moneda a pesos"""
     return moneda *valor
 
 
